@@ -9,7 +9,8 @@
     "assetBase": "./assets/cards/",
     "menuGreeting": "Ready to match clocks with their times?",
     "matchPrompt": "Find the clock and its matching time!",
-    "resultMessage": "You found every clock match."
+    "resultMessage": "You found every clock match.",
+    "artVersion": "card-art-2"
   },
   "play": {
     "fixedPairs": true,
