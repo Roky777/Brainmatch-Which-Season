@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "variant": {
+    "id": "clock-match",
+    "title": "Clock Match",
+    "subtitle": "A little time adventure",
+    "grade": 1,
+    "objective": "Find the clock and its matching time.",
+    "assetBase": "./assets/cards/",
+    "menuGreeting": "Ready to match clocks with their times?",
+    "matchPrompt": "Find the clock and its matching time!",
+    "resultMessage": "You found every clock match."
+  },
+  "play": {
+    "fixedPairs": true,
+    "shufflePairs": true,
+    "difficultyGroups": [
+      {
+        "id": "gentle",
+        "name": "Easy",
+        "description": "4 cards · 2 pairs",
+        "rounds": [
+          "1"
+        ]
+      },
+      {
+        "id": "growing",
+        "name": "Medium",
+        "description": "6 cards · 3 pairs",
+        "rounds": [
+          "2"
+        ]
+      },
+      {
+        "id": "clever",
+        "name": "Hard",
+        "description": "8 cards · 4 pairs",
+        "rounds": [
+          "3"
+        ]
+      }
+    ]
+  },
+  "features": {
+    "picnic": false
+  },
+  "progression": {
+    "xp": {
+      "rewards": {
+        "practice": 14,
+        "challenge": 8
+      },
+      "completionBonus": 2
+    }
+  },
+  "worlds": {
+    "dream": {
+      "id": "dream",
+      "name": "Clock Meadow",
+      "shortName": "Meadow",
+      "description": "Match clocks and times",
+      "skin": "meadow",
+      "menuTitleLines": [
+        "Clock",
+        "Match"
+      ],
+      "menuKicker": "A little time adventure",
+      "cloudAsset": "sparky-seat-cloud-v1.webp",
+      "unlockMessage": "More clock matches are ready!"
+    },
+    "seasons": {
+      "id": "seasons",
+      "name": "Clock Parade",
+      "shortName": "Parade",
+      "description": "Match clocks and times",
+      "skin": "parade",
+      "menuTitleLines": [
+        "Clock",
+        "Parade"
+      ],
+      "menuKicker": "A little time adventure",
+      "cloudAsset": "season-sparky-cloud-v1.webp",
+      "unlockMessage": "More clock matches are ready!"
+    },
+    "neon": {
+      "id": "neon",
+      "name": "Clock Lab",
+      "shortName": "Lab",
+      "description": "Match clocks and times",
+      "skin": "space-lab",
+      "menuTitleLines": [
+        "Clock",
+        "Lab"
+      ],
+      "menuKicker": "A little time adventure",
+      "cloudAsset": "neon-sparky-cloud-v1.webp",
+      "unlockMessage": "More clock matches are ready!"
+    }
+  },
+  "categories": {
+    "h1": {
+      "name": "1:00",
+      "detail": "The short hand points to 1. The long hand points to 12.",
+      "color": "#edbb58"
+    },
+    "h2": {
+      "name": "2:00",
+      "detail": "The short hand points to 2. The long hand points to 12.",
+      "color": "#edbb58"
+    },
+    "h4": {
+      "name": "4:00",
+      "detail": "The short hand points to 4. The long hand points to 12.",
+      "color": "#edbb58"
+    },
+    "h6": {
+      "name": "6:00",
+      "detail": "The short hand points to 6. The long hand points to 12.",
+      "color": "#edbb58"
+    },
+    "h7": {
+      "name": "7:00",
+      "detail": "The short hand points to 7. The long hand points to 12.",
+      "color": "#edbb58"
+    },
+    "h8": {
+      "name": "8:00",
+      "detail": "The short hand points to 8. The long hand points to 12.",
+      "color": "#edbb58"
+    },
+    "h9": {
+      "name": "9:00",
+      "detail": "The short hand points to 9. The long hand points to 12.",
+      "color": "#edbb58"
+    },
+    "h10": {
+      "name": "10:00",
+      "detail": "The short hand points to 10. The long hand points to 12.",
+      "color": "#edbb58"
+    }
+  },
+  "items": {
+    "clock1": {
+      "name": "Clock showing 1 o'clock",
+      "asset": "clock-1.svg",
+      "hour": 1,
+      "representation": "analog"
+    },
+    "time1": {
+      "name": "1:00",
+      "asset": "time-1.svg",
+      "hour": 1,
+      "representation": "digital"
+    },
+    "clock2": {
+      "name": "Clock showing 2 o'clock",
+      "asset": "clock-2.svg",
+      "hour": 2,
+      "representation": "analog"
+    },
+    "time2": {
+      "name": "2:00",
+      "asset": "time-2.svg",
+      "hour": 2,
+      "representation": "digital"
+    },
+    "clock4": {
+      "name": "Clock showing 4 o'clock",
+      "asset": "clock-4.svg",
+      "hour": 4,
+      "representation": "analog"
+    },
+    "time4": {
+      "name": "4:00",
+      "asset": "time-4.svg",
+      "hour": 4,
+      "representation": "digital"
+    },
+    "clock6": {
+      "name": "Clock showing 6 o'clock",
+      "asset": "clock-6.svg",
+      "hour": 6,
+      "representation": "analog"
+    },
+    "time6": {
+      "name": "6:00",
+      "asset": "time-6.svg",
+      "hour": 6,
+      "representation": "digital"
+    },
+    "clock7": {
+      "name": "Clock showing 7 o'clock",
+      "asset": "clock-7.svg",
+      "hour": 7,
+      "representation": "analog"
+    },
+    "time7": {
+      "name": "7:00",
+      "asset": "time-7.svg",
+      "hour": 7,
+      "representation": "digital"
+    },
+    "clock8": {
+      "name": "Clock showing 8 o'clock",
+      "asset": "clock-8.svg",
+      "hour": 8,
+      "representation": "analog"
+    },
+    "time8": {
+      "name": "8:00",
+      "asset": "time-8.svg",
+      "hour": 8,
+      "representation": "digital"
+    },
+    "clock9": {
+      "name": "Clock showing 9 o'clock",
+      "asset": "clock-9.svg",
+      "hour": 9,
+      "representation": "analog"
+    },
+    "time9": {
+      "name": "9:00",
+      "asset": "time-9.svg",
+      "hour": 9,
+      "representation": "digital"
+    },
+    "clock10": {
+      "name": "Clock showing 10 o'clock",
+      "asset": "clock-10.svg",
+      "hour": 10,
+      "representation": "analog"
+    },
+    "time10": {
+      "name": "10:00",
+      "asset": "time-10.svg",
+      "hour": 10,
+      "representation": "digital"
+    }
+  },
+  "rounds": [
+    {
+      "id": "1",
+      "title": "First clock matches",
+      "pairs": [
+        [
+          "h6",
+          "clock6",
+          "time6"
+        ],
+        [
+          "h7",
+          "clock7",
+          "time7"
+        ],
+        [
+          "h8",
+          "clock8",
+          "time8"
+        ],
+        [
+          "h9",
+          "clock9",
+          "time9"
+        ]
+      ]
+    },
+    {
+      "id": "2",
+      "title": "More clock times",
+      "pairs": [
+        [
+          "h1",
+          "clock1",
+          "time1"
+        ],
+        [
+          "h2",
+          "clock2",
+          "time2"
+        ],
+        [
+          "h4",
+          "clock4",
+          "time4"
+        ],
+        [
+          "h10",
+          "clock10",
+          "time10"
+        ]
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Whole-hour challenge",
+      "pairs": [
+        [
+          "h1",
+          "clock1",
+          "time1"
+        ],
+        [
+          "h2",
+          "clock2",
+          "time2"
+        ],
+        [
+          "h4",
+          "clock4",
+          "time4"
+        ],
+        [
+          "h6",
+          "clock6",
+          "time6"
+        ],
+        [
+          "h7",
+          "clock7",
+          "time7"
+        ],
+        [
+          "h8",
+          "clock8",
+          "time8"
+        ],
+        [
+          "h9",
+          "clock9",
+          "time9"
+        ],
+        [
+          "h10",
+          "clock10",
+          "time10"
+        ]
+      ]
+    }
+  ]
+}
